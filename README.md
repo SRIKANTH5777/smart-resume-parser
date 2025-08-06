@@ -34,3 +34,28 @@ Make sure you have Python 3.6+ installed.
 
 ```bash
 pip install -r requirements.txt
+
+Install required language models for NLP:
+
+bash
+Copy
+Edit
+python -m spacy download en_core_web_sm
+python -m nltk.downloader stopwords
+python -m nltk.downloader words
+
+---
+Quick Start
+python
+Copy
+Edit
+from pyresparser import ResumeParser
+
+data = ResumeParser("path/to/resume.pdf").get_extracted_data()
+print(data)
+
+Supported File Formats
+.pdf and .docx are supported by default
+
+To use .doc files, install textract
+
