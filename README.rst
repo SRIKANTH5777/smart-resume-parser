@@ -5,8 +5,8 @@ pyresparser
 
     A simple resume parser used for extracting information from resumes
 
-Built with ❤︎ and :coffee: by `Omkar
-Pathak <https://github.com/OmkarPathak>`__
+Built with ❤︎ and :coffee: by `Srikanth
+ <https://github.com/SRIKANTH5777>`__
 
 --------------
 
