@@ -5,8 +5,7 @@ pyresparser
 
     A simple resume parser used for extracting information from resumes
 
-Built with ❤︎ and :coffee: by `Srikanth
- <https://github.com/SRIKANTH5777>`__
+Built with ❤︎ and :coffee: by Srikanth
 
 --------------
 
@@ -46,11 +45,6 @@ Installation
     # nltk
     python -m nltk.downloader words
 
-Documentation
-=============
-
-Official documentation is available at:
-https://www.omkarpathak.in/pyresparser/
 
 Supported File Formats
 ======================
